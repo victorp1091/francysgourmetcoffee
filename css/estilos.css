@@ -1,0 +1,249 @@
+
+.fondocafe { 
+  background: url("../images/cafe2.png") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-repeat: no-repeat;
+}
+
+.bg-color {
+	width: 300px;
+	display: inline-block;
+	justify-content: center;
+	text-align: center;
+	font-size: 25px;
+	border-radius: 50px;
+	padding: 10px 20px;
+	background: #d6a511;
+	font-weight: bold;
+	box-shadow: 0 3px 5px 0px rgba(0, 0, 0, .50);
+}
+.imgcafe {
+	border-radius: 20px;
+	box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.50);
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans';
+}
+nav{
+	max-width: 900px;
+	margin: auto;
+	background-color:#d6a511;
+	font-size: 20px;
+	margin-top: 50px;
+	font-weight: bold;
+	border-radius: 1rem;
+}
+.menu-horizontal{
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+}
+.menu-horizontal > li > a{
+	display: block;
+	padding: 15px 20px;
+	color: white;
+	text-decoration: none;
+}
+.menu-horizontal > li:hover{
+	background-color: rgb(0, 0, 0);
+}
+
+.menu-horizontal li:hover .menu-vertical{
+	display: block;
+}
+.menu-vertical li:hover{
+	background-color: black;
+}
+
+.menu-vertical li a{
+	display: block;
+	color: white;
+	text-decoration: none;
+	padding: 15px 15px 15px 20px;
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root{
+	--facebook: #3b5999;
+	--instagram: #e4405f;
+	--whatsapp: #00bb2d;
+}
+
+.redes-container{
+	display: flex;
+	height: 10vh;
+	justify-content: right;
+	margin: 50px 50px;
+	
+}
+
+.redes-container ul li{
+	display: inline-block;
+	margin: 0 5px;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	
+}
+
+.redes-container ul li a{
+	display: block;
+	padding: 0 10px;
+	background: #d6a511;
+	color: #ffffff;
+	line-height: 50px;
+	font-size: 18px;
+	box-shadow: 0 3px 5px 0px rgba(0, 0, 0, .50);
+	transform: .2s;
+	border-radius: 50px;
+
+}
+
+.redes-container ul:hover a{
+	filter: blur(2px);
+
+}
+
+.redes-container ul li a:hover{
+	transform: translateY(-3px) scale(1.05);
+	box-shadow: 0 5px 5px 0px rgba(0, 0, 0, .4);
+	filter: none;
+}
+
+.redes-container ul li .facebook:hover{
+	background: var(--facebook);
+}
+
+.redes-container ul li .instagram:hover{
+	background: var(--instagram);
+}
+
+.redes-container ul li .whatsapp:hover{
+	background: var(--whatsapp);
+}
+
+
+
+.form{
+	background-color: rgba(255, 255, 255, 0.616);
+	width: 90%;
+	margin: auto;
+	max-width: 400px;
+	border-radius: 1em;
+	padding: 3.5em 1.5em;
+	
+}
+
+.form_container{
+	width: 100%;
+	display: grid;
+	gap: 1em;
+	grid-auto-columns: 100%;
+}
+
+.form_title{
+	text-align: center;
+	font-size: 1.9rem;
+}
+
+.form_input{
+	font-size: 1rem;
+	padding: .8em 1em;
+	outline: none;
+	border: none;
+	border: 1px solid #bbb0b0;
+	border-radius: 0.2em;
+}
+
+
+.form_cta{
+	font-size: 1rem;
+	background-color: #d6a511;
+	color: #fff;
+	border: none;
+	font-weight: 300;
+	padding: .7em 0;
+	border-radius: .2em;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+.menu-comida{
+	font-size: 1rem;
+	background-color: #089fe0;
+	color: #fff;
+	border: none;
+	font-weight: 300;
+	padding: .7em 0;
+	border-radius: .2em;
+	cursor: pointer;
+	font-weight: 400;
+
+}
+
+h4{
+	font-size: 17px;
+	text-align: justify;
+}
+
+.boton-menu{
+	width: 33.33%;
+	margin-left: 35%;
+	padding: 10px 8px;
+	background-color: #d6a511;
+	border-radius: 1rem;
+	font-size: 18px;
+	box-shadow: 0 3px 5px 0px rgba(0, 0, 0, .50);
+	font-weight: bold;
+	list-style: none;
+	display: block;
+	margin: auto;
+	font-family: Arial, Helvetica, sans-serif;
+	
+}
+
+a{
+	text-decoration: none;
+	color: #212529
+	
+}
+
+.boton-enviar{
+	font-weight: bold;
+}
+
+h1{
+	text-align: center;
+}
+
+div{
+	object-fit: center;	
+}
+
+.boton-comprar{
+	width: 33.33%;
+	margin-left: 35%;
+	padding: 10px 8px;
+	background-color: #d6a511;
+	border-radius: 1rem;
+	font-size: 18px;
+	box-shadow: 0 3px 5px 0px rgba(0, 0, 0, .50);
+	font-weight: bold;
+	list-style: none;
+	display: block;
+	margin: auto;
+	font-family: Arial, Helvetica, sans-serif;
+}
